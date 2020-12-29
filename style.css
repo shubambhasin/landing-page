@@ -1,21 +1,19 @@
 body {
-    font-family: -apple-system, 
-    BlinkMacSystemFont, 'Segoe UI', 
-    Roboto, Oxygen, Ubuntu, Cantarell, 
-    'Open Sans', 'Helvetica Neue', 
-    sans-serif;
+    font-family: -apple-system,
+        BlinkMacSystemFont, 'Segoe UI',
+        Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue',
+        sans-serif;
     margin: 0%;
-    text-
-
+   
 }
 
 :root {
     --accent-color: #5289db;
-    --bg-gray: #f0f0f0
+    --bg-gray: #f0f0f0;
 }
 
-.center
-{
+.center {
     text-align: center;
 }
 
@@ -42,9 +40,9 @@ body {
     top: 1.2rem;
     color: white;
 }
-.header-2
-{
-   word-wrap: wrap;
+
+.header-2 {
+    word-wrap: wrap;
     position: absolute;
     left: 30px;
     right: 30px;
@@ -53,67 +51,95 @@ body {
 
 }
 
-.img1
-{
+.img1 {
     position: absolute;
     top: 30%;
     left: 60px;
     width: 70%;
-    height:70%;
+    height: 70%;
 }
 
-.white
-{
+.white {
     color: white;
 }
 
-.left-para
-{
+.left-para {
     position: absolute;
     top: 25%;
     left: 30px;
     right: 30px;
 }
 
-.input-class{
+.input-class {
     margin: 10px;
     width: 30%;
     height: 20px;
     border: none;
     border-radius: 0.5rem;
-   
+
     padding: 0.5rem;
 }
 
-.input-class:hover
-{
+.input-class:hover {
     border: 0.5px solid #5289db;
 }
-.no-bullet
-{
+
+.no-bullet {
     list-style-type: none;
+   
+
+}
+.right-align
+{
     text-align: right;
 }
 
-.nav-items
-{
+.nav-items {
     margin: 10px;
     padding: 0.5rem;
     display: inline;
 }
 
-.btn
-{
+.btn {
     padding: 0.5rem;
     width: 30%;
     height: 8%;
-    border:none;
+    border: none;
     border-radius: 5px;
     background-color: #5289db;
-    color:white
+    color: white
 }
 
-nav ul li a i 
-{
+nav ul li a i {
     color: var(--accent-color)
+}
+
+hr {
+    width: 40%;
+}
+
+.li-items {
+    display: inline;
+    text-align: center;
+    padding: 5px;
+
+
+}
+
+.center .no-bullet .li-items i {
+    color: var(--accent-color);
+    margin: 10px;
+    border: none;
+    width: 35px;
+    height: 35px;
+}
+.inline-start-padding
+{
+    padding-inline-start: 0px;
+}
+
+a
+{
+    text-decoration: none;
+    color: var(--accent-color);
 }
