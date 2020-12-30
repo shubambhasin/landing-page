@@ -143,3 +143,12 @@ a
     text-decoration: none;
     color: var(--accent-color);
 }
+
+.checkbox-align
+{
+
+    display: flex;
+    flex-direction: column;
+    
+    
+}
